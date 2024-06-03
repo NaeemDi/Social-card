@@ -1,0 +1,78 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+}
+
+/* card */
+
+.card {
+  margin: 100px auto;
+  width: 320px;
+  height: 550px;
+  background-color: #1f1f1f;
+  border-radius: 16px;
+}
+
+/* profile section */
+
+.profile {
+  font-family: "Inter", sans-serif;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px auto;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.city {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: greenyellow;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 300;
+}
+img {
+  width: 80px;
+  border-radius: 9999px;
+}
+
+/* button list */
+
+.liste-btn {
+  margin: 20px auto;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 250px;
+    height: 44px;
+    background-color: #333333;
+    color: #f2f2f2;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+  background-color: #b7d462;
+  color: black;
+  transition: 200ms ease-in-out;
+}
